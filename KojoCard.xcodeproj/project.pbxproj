@@ -11,6 +11,9 @@
 		5479D46B282EEFE7004F8A61 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479D46A282EEFE7004F8A61 /* ContentView.swift */; };
 		5479D46D282EEFE9004F8A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5479D46C282EEFE9004F8A61 /* Assets.xcassets */; };
 		5479D470282EEFE9004F8A61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5479D46F282EEFE9004F8A61 /* Preview Assets.xcassets */; };
+		5479D478282EFB10004F8A61 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5479D477282EFB10004F8A61 /* Pacifico-Regular.ttf */; };
+		5479D47A282EFC5A004F8A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5479D479282EFC5A004F8A61 /* LaunchScreen.storyboard */; };
+		547F905D2845DCD200E3FECA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547F905C2845DCD200E3FECA /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		5479D46A282EEFE7004F8A61 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5479D46C282EEFE9004F8A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5479D46F282EEFE9004F8A61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5479D477282EFB10004F8A61 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Pacifico-Regular.ttf"; path = "../../../../../../Downloads/Pacifico/Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		5479D479282EFC5A004F8A61 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5479D47B282EFDDC004F8A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		547F905C2845DCD200E3FECA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +58,14 @@
 		5479D467282EEFE7004F8A61 /* KojoCard */ = {
 			isa = PBXGroup;
 			children = (
+				5479D47B282EFDDC004F8A61 /* Info.plist */,
+				5479D476282EFAF2004F8A61 /* fonts */,
 				5479D468282EEFE7004F8A61 /* KojoCardApp.swift */,
 				5479D46A282EEFE7004F8A61 /* ContentView.swift */,
+				547F905C2845DCD200E3FECA /* InfoView.swift */,
 				5479D46C282EEFE9004F8A61 /* Assets.xcassets */,
 				5479D46E282EEFE9004F8A61 /* Preview Content */,
+				5479D479282EFC5A004F8A61 /* LaunchScreen.storyboard */,
 			);
 			path = KojoCard;
 			sourceTree = "<group>";
@@ -65,6 +76,14 @@
 				5479D46F282EEFE9004F8A61 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5479D476282EFAF2004F8A61 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5479D477282EFB10004F8A61 /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5479D478282EFB10004F8A61 /* Pacifico-Regular.ttf in Resources */,
+				5479D47A282EFC5A004F8A61 /* LaunchScreen.storyboard in Resources */,
 				5479D470282EEFE9004F8A61 /* Preview Assets.xcassets in Resources */,
 				5479D46D282EEFE9004F8A61 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5479D46B282EEFE7004F8A61 /* ContentView.swift in Sources */,
+				547F905D2845DCD200E3FECA /* InfoView.swift in Sources */,
 				5479D469282EEFE7004F8A61 /* KojoCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +294,7 @@
 				DEVELOPMENT_TEAM = J6D5FPVUW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KojoCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +324,7 @@
 				DEVELOPMENT_TEAM = J6D5FPVUW2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KojoCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
